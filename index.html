@@ -16,15 +16,15 @@
 
       <form action="//formspree.io/czc966@gmail.com" method="POST">
         <div>
-          <label>Name</label>
+          <label><b>Name</b></label>
           <input type="text" name="name" value="your name">
         </div>
         <div>
-          <label>Email</label>
+          <label><b>Email</b></label>
           <input type="text" name="mail" value="your email">
         </div>
         <div>
-          <label>Comment</label>
+          <label><b>Comment</b></label>
           <input type="text" name="comment" value="your comment" size="50">
         </div>
         <div>
@@ -35,22 +35,28 @@
     </div>
 
     <div class="container">
-      
-      <section class="page-header">
-       <img src ="images/STL.jpg" alt="STL" style="width:600px"
 
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="food.html">Restaurants</a></li>
+        <li><a href="entertainment.html">Entertainment</a></li>
+        <li><a href="shopping.html">Shopping</a></li>
+        <ul style="float:right;list-style-type:none;">
+           <li><a href="#about">About</a></li>
+           <li><a href="#img1" rel="modal:open">Contact Us</a></li>
+         </ul>
+      </ul>
+
+      <img src ="images/STL.jpg" alt="STL" style="width:734px">
+
+      <section class="page-header">
         <h1 class="project-name">Local Directory | St. Louis</h1>
         <h2 class="project-tagline">A collection of the best eateries, stores, and venues to explore in the St. Louis area.</h2>
+        <p> <i> With a population of just over 315,000, St. Louis, Missouri is one of the American Midwest's most populous cities.
+          The city provides inhabitants and visitors alike with numerous opportunities to try new cuisine, see some of the world's
+          most-celebrated art, and explore its many historical attractions. Explore this site in order to get a taste of all St. Louis
+          has to offer! </i></p>
       </section>
-      
-   <form action="http://www.example.com/profile.php">
-      <p>What are you looking for?</p>
-      <select name="devices">
-        <option value="food">Food</option>
-        <option value="entertainment">Entertainment</option>
-        <option value="shopping">Shopping</option>
-      </select>
-    </form>
 
       <section class="main-content">
         <h3>Featured Restaurants</h3>
@@ -82,8 +88,6 @@
           </tr>
         </table>
       </section>
-
-      <a href="#img1" rel="modal:open" class="button">Give us your feedback!</a>
 
       <footer class="site-footer">
         <hr>
